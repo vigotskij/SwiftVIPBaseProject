@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85EB4ED624B979560080E85B /* Architecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB4ED524B979560080E85B /* Architecture.swift */; };
+		85EB4ED824B979B20080E85B /* MainContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB4ED724B979B20080E85B /* MainContracts.swift */; };
+		85EB4EDA24B97AAA0080E85B /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB4ED924B97AAA0080E85B /* MainConfigurator.swift */; };
+		85EE851024B9828E00F8C386 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE850F24B9828E00F8C386 /* MainInteractor.swift */; };
+		85EE851224B9830C00F8C386 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE851124B9830C00F8C386 /* MainPresenter.swift */; };
+		85EE851424B983BF00F8C386 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE851324B983BF00F8C386 /* MainRouter.swift */; };
+		85EE851A24B98B2C00F8C386 /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE851924B98B2C00F8C386 /* MainModels.swift */; };
 		85F33DDB24B976A7000F4732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F33DDA24B976A7000F4732 /* AppDelegate.swift */; };
 		85F33DDD24B976A7000F4732 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F33DDC24B976A7000F4732 /* SceneDelegate.swift */; };
-		85F33DDF24B976A7000F4732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F33DDE24B976A7000F4732 /* ViewController.swift */; };
+		85F33DDF24B976A7000F4732 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F33DDE24B976A7000F4732 /* MainViewController.swift */; };
 		85F33DE224B976A7000F4732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F33DE024B976A7000F4732 /* Main.storyboard */; };
 		85F33DE424B976A9000F4732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F33DE324B976A9000F4732 /* Assets.xcassets */; };
 		85F33DE724B976A9000F4732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F33DE524B976A9000F4732 /* LaunchScreen.storyboard */; };
@@ -35,10 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85EB4ED524B979560080E85B /* Architecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture.swift; sourceTree = "<group>"; };
+		85EB4ED724B979B20080E85B /* MainContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContracts.swift; sourceTree = "<group>"; };
+		85EB4ED924B97AAA0080E85B /* MainConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
+		85EE850F24B9828E00F8C386 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		85EE851124B9830C00F8C386 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		85EE851324B983BF00F8C386 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		85EE851924B98B2C00F8C386 /* MainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModels.swift; sourceTree = "<group>"; };
 		85F33DD724B976A7000F4732 /* SwiftVIPBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVIPBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F33DDA24B976A7000F4732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F33DDC24B976A7000F4732 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85F33DDE24B976A7000F4732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85F33DDE24B976A7000F4732 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		85F33DE124B976A7000F4732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85F33DE324B976A9000F4732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85F33DE624B976A9000F4732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +90,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85EB4ED024B9788B0080E85B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				85EB4ED424B9791D0080E85B /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		85EB4ED124B978970080E85B /* SupportingObjects */ = {
+			isa = PBXGroup;
+			children = (
+				85EE851724B98B1400F8C386 /* Models */,
+			);
+			path = SupportingObjects;
+			sourceTree = "<group>";
+		};
+		85EB4ED224B978DB0080E85B /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				85EB4ED524B979560080E85B /* Architecture.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		85EB4ED324B978E70080E85B /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		85EB4ED424B9791D0080E85B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				85EB4ED924B97AAA0080E85B /* MainConfigurator.swift */,
+				85EE851324B983BF00F8C386 /* MainRouter.swift */,
+				85EB4ED724B979B20080E85B /* MainContracts.swift */,
+				85EE850F24B9828E00F8C386 /* MainInteractor.swift */,
+				85EE851124B9830C00F8C386 /* MainPresenter.swift */,
+				85F33DDE24B976A7000F4732 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		85EE851724B98B1400F8C386 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85EE851824B98B1D00F8C386 /* Main */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85EE851824B98B1D00F8C386 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				85EE851924B98B2C00F8C386 /* MainModels.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		85F33DCE24B976A7000F4732 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +173,16 @@
 		85F33DD924B976A7000F4732 /* SwiftVIPBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				85F33DE824B976A9000F4732 /* Info.plist */,
 				85F33DDA24B976A7000F4732 /* AppDelegate.swift */,
 				85F33DDC24B976A7000F4732 /* SceneDelegate.swift */,
-				85F33DDE24B976A7000F4732 /* ViewController.swift */,
-				85F33DE024B976A7000F4732 /* Main.storyboard */,
 				85F33DE324B976A9000F4732 /* Assets.xcassets */,
+				85EB4ED224B978DB0080E85B /* Contracts */,
 				85F33DE524B976A9000F4732 /* LaunchScreen.storyboard */,
-				85F33DE824B976A9000F4732 /* Info.plist */,
+				85F33DE024B976A7000F4732 /* Main.storyboard */,
+				85EB4ED024B9788B0080E85B /* Screens */,
+				85EB4ED124B978970080E85B /* SupportingObjects */,
+				85EB4ED324B978E70080E85B /* Workers */,
 			);
 			path = SwiftVIPBaseProject;
 			sourceTree = "<group>";
@@ -135,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85F33E0124B976A9000F4732 /* Build configuration list for PBXNativeTarget "SwiftVIPBaseProject" */;
 			buildPhases = (
+				85EE851524B9869C00F8C386 /* SwiftLint Script */,
 				85F33DD324B976A7000F4732 /* Sources */,
 				85F33DD424B976A7000F4732 /* Frameworks */,
 				85F33DD524B976A7000F4732 /* Resources */,
@@ -254,14 +332,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85EE851524B9869C00F8C386 /* SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85F33DD324B976A7000F4732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85F33DDF24B976A7000F4732 /* ViewController.swift in Sources */,
+				85EB4ED624B979560080E85B /* Architecture.swift in Sources */,
+				85EB4ED824B979B20080E85B /* MainContracts.swift in Sources */,
+				85EE851A24B98B2C00F8C386 /* MainModels.swift in Sources */,
+				85F33DDF24B976A7000F4732 /* MainViewController.swift in Sources */,
+				85EE851224B9830C00F8C386 /* MainPresenter.swift in Sources */,
+				85EE851024B9828E00F8C386 /* MainInteractor.swift in Sources */,
 				85F33DDB24B976A7000F4732 /* AppDelegate.swift in Sources */,
 				85F33DDD24B976A7000F4732 /* SceneDelegate.swift in Sources */,
+				85EB4EDA24B97AAA0080E85B /* MainConfigurator.swift in Sources */,
+				85EE851424B983BF00F8C386 /* MainRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2K8AKR8G9;
 				INFOPLIST_FILE = SwiftVIPBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vigotskij.SwiftVIPBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2K8AKR8G9;
 				INFOPLIST_FILE = SwiftVIPBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,7 +568,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vigotskij.SwiftVIPBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
